@@ -78,7 +78,7 @@ export default function HomePage() {
         >
           {/* Imagem de Fundo */}
           <Image
-            src="/teste1.svg" // <-- COLOQUE SUA NOVA IMAGEM DE FUNDO AQUI
+            src="/pra1.svg" // <-- COLOQUE SUA NOVA IMAGEM DE FUNDO AQUI
             alt="Modelo de fundo da coleção"
             fill
             priority
@@ -89,7 +89,7 @@ export default function HomePage() {
 
           {/* Conteúdo de Texto */}
           <div className="relative z-20 p-4">
-            <h2 className="text-6xl sm:text-7xl md:text-8xl text-yellow-300 font-serif uppercase">
+            <h2 className="text-6xl sm:text-7xl md:text-8xl text-yellow-300 font- uppercase">
               Laureane Simões
             </h2>
             <p className="mt-4 text-lg font-sans text-yellow-300">

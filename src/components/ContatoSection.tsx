@@ -2,18 +2,22 @@
 
 export default function ContatoSection() {
   return (
-    <section
-      id="contato"
-      className="relative min-h-screen w-full flex flex-col justify-center items-center p-8 font-sans bg-cover bg-center"
-      style={{ backgroundImage: "url('./teste.jpeg')" }}
-    >
+<section
+  id="contato"
+  className="relative min-h-screen w-full bg-white flex flex-col justify-center items-center p-8 font-sans bg-cover bg-center"
+  style={{ 
+    backgroundImage: "url('./prata.svg')",
+    backgroundSize: "50%", /* Isso fará a imagem ter 50% do tamanho da seção */
+    backgroundRepeat: "no-repeat" /* Para não repetir a imagem se ela for pequena */
+  }}
+>
       <div className="absolute inset-0 bg-opacity-50 z-0"></div>
 
-      <div className="relative z-10 text-white w-full max-w-6xl flex flex-col justify-between h-full min-h-[70vh]">
+      <div className="relative z-10 text-black w-full max-w-6xl flex flex-col justify-between h-full min-h-[70vh]">
         
         {/* Título com animação */}
         <h2 
-          className="text-6xl md:text-8xl text-yellow-400 font-serif text-center animate-fade-in-up"
+          className="text-6xl md:text-8xl text-black font-serif text-center animate-fade-in-up"
           style={{ animationDelay: '0.2s' }}
         >
           Entre em contato
@@ -25,7 +29,7 @@ export default function ContatoSection() {
             className="animate-fade-in-up" 
             style={{ animationDelay: '0.4s' }}
           >
-            <p className="text-sm uppercase tracking-widest text-gray-300 mb-2">
+            <p className="text-sm uppercase tracking-widest text-black mb-2">
               Instagram
             </p>
             <p className="text-lg">
@@ -38,7 +42,7 @@ export default function ContatoSection() {
             className="animate-fade-in-up" 
             style={{ animationDelay: '0.6s' }}
           >
-            <p className="text-sm uppercase tracking-widest text-gray-300 mb-2">
+            <p className="text-sm uppercase tracking-widest text-black mb-2">
               Email
             </p>
             <a href="mailto:hello@reallygreatsite.com" className="text-lg hover:underline">
@@ -51,7 +55,7 @@ export default function ContatoSection() {
             className="animate-fade-in-up" 
             style={{ animationDelay: '0.8s' }}
           >
-            <p className="text-sm uppercase tracking-widest text-gray-300 mb-2">
+            <p className="text-sm uppercase tracking-widest text-black mb-2">
               Whatsapp
             </p>
             <p className="text-lg">(123) 456 7890</p>

@@ -21,7 +21,7 @@ type CatalogoProps = {
 export default function CatalogoSection({ handleAddToCart, handleRemoveFromCart, isInCart }: CatalogoProps) {
   return (
     // Adicionamos um 'id' para que a navegação da página única encontre esta seção
-    <section id="catalogo" className="bg-[#FEFBF3] min-h-screen p-4 sm:p-8">
+    <section id="catalogo" className="bg-white min-h-screen p-4 sm:p-8">
       <header className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-serif text-[#5C3342]">
           Nosso Catálogo
