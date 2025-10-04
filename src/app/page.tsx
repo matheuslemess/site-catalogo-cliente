@@ -89,7 +89,7 @@ export default function HomePage() {
 
           {/* Conteúdo de Texto */}
           <div className="relative z-20 p-4">
-            <h2 className="text-6xl sm:text-7xl md:text-8xl text-yellow-300 font- uppercase">
+            <h2 className="text-6xl sm:text-7xl md:text-8xl text-yellow-300 font-serif-display uppercase">
               Laureane Simões
             </h2>
             <p className="mt-4 text-lg font-sans text-yellow-300">
@@ -122,7 +122,9 @@ export default function HomePage() {
             onClick={handleSendWhatsApp}
             className="bg-green-700 text-white font-bold py-3 px-4 md:py-4 md:px-6 rounded-md shadow-lg hover:scale-105 transition-transform flex items-center gap-3"
           >
-            <span className="text-base md:text-lg">Comprar ({cart.length})</span>
+            <span className="text-base md:text-lg">
+              Comprar ({cart.length})
+            </span>
           </button>
         </div>
       )}
